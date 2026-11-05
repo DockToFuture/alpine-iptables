@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM alpine:3.24.3
+FROM alpine:3.24.4
 
 # Install required packages
 RUN apk add iptables && apk add iptables-legacy && apk add iproute2 \
